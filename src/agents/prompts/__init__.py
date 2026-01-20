@@ -1,0 +1,15 @@
+"""Agent prompts module."""
+
+from .system_prompts import (
+    HR_AGENT_SYSTEM_PROMPT,
+    INTENT_CLASSIFIER_PROMPT,
+    LEAVE_REQUEST_PROMPT,
+    RESPONSE_FORMATTING_PROMPT,
+)
+
+__all__ = [
+    "HR_AGENT_SYSTEM_PROMPT",
+    "INTENT_CLASSIFIER_PROMPT",
+    "LEAVE_REQUEST_PROMPT",
+    "RESPONSE_FORMATTING_PROMPT",
+]
