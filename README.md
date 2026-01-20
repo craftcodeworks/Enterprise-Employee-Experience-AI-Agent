@@ -289,7 +289,7 @@ hr-agent/
 ├── app.py                # Main entry point
 ├── requirements.txt
 ├── Dockerfile
-└── .env.example
+└── .env
 ```
 
 ## 🔧 MCP Tools Available
@@ -355,16 +355,6 @@ pytest tests/ -v
 pytest tests/ --cov=src --cov-report=html
 ```
 
-## 📄 License
-
-MIT License - See LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## 📞 Support
 
